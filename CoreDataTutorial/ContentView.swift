@@ -17,6 +17,7 @@ struct ContentView: View {
     @Environment(\.managedObjectContext) private var context
     @Environment(\.undoManager) private var undoManager
     @State private var infoPresented = false
+    @State private var experiencesViewPresented = false
     
     var body: some View {
         NavigationStack {
@@ -34,6 +35,13 @@ struct ContentView: View {
                                    InfoView(user: user)
                                }
                                
+                               Button("Add Experience") {
+                                   experiencesViewPresented = true
+                               }
+                               .navigationDestination(
+                                isPresented: $experiencesViewPresented) {
+                                    ExperiencesView(user: user)
+                                }
                            }
                        }
                    }

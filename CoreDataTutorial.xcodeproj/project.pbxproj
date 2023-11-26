@@ -13,6 +13,8 @@
 		AE36DED02B13938D0054C0DD /* Phone+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36DECC2B13938D0054C0DD /* Phone+CoreDataProperties.swift */; };
 		AE36DED12B13938D0054C0DD /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36DECD2B13938D0054C0DD /* User+CoreDataClass.swift */; };
 		AE36DED22B13938D0054C0DD /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36DECE2B13938D0054C0DD /* User+CoreDataProperties.swift */; };
+		AE36DED42B1395D70054C0DD /* ExperiencesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36DED32B1395D70054C0DD /* ExperiencesView.swift */; };
+		AE36DED62B1395F70054C0DD /* AddExperienceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE36DED52B1395F70054C0DD /* AddExperienceView.swift */; };
 		AE74B2FB2AB60DD1005C11B8 /* AddDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE74B2FA2AB60DD1005C11B8 /* AddDetailsView.swift */; };
 		AE9D2F672AADDAA0002F3A0E /* CoreDataTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9D2F662AADDAA0002F3A0E /* CoreDataTutorialApp.swift */; };
 		AE9D2F692AADDAA0002F3A0E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9D2F682AADDAA0002F3A0E /* Persistence.swift */; };
@@ -49,6 +51,8 @@
 		AE36DECC2B13938D0054C0DD /* Phone+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Phone+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		AE36DECD2B13938D0054C0DD /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		AE36DECE2B13938D0054C0DD /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		AE36DED32B1395D70054C0DD /* ExperiencesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExperiencesView.swift; sourceTree = "<group>"; };
+		AE36DED52B1395F70054C0DD /* AddExperienceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExperienceView.swift; sourceTree = "<group>"; };
 		AE74B2FA2AB60DD1005C11B8 /* AddDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDetailsView.swift; sourceTree = "<group>"; };
 		AE9D2F632AADDAA0002F3A0E /* CoreDataTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE9D2F662AADDAA0002F3A0E /* CoreDataTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTutorialApp.swift; sourceTree = "<group>"; };
@@ -127,6 +131,8 @@
 				AE9D2F722AADDAA1002F3A0E /* Preview Content */,
 				AE20F6D82B0A6464007A7239 /* InfoView.swift */,
 				AE20F6DA2B0A6799007A7239 /* AddPhoneNumber.swift */,
+				AE36DED32B1395D70054C0DD /* ExperiencesView.swift */,
+				AE36DED52B1395F70054C0DD /* AddExperienceView.swift */,
 			);
 			path = CoreDataTutorial;
 			sourceTree = "<group>";
@@ -295,7 +301,9 @@
 				AE9D2F6C2AADDAA0002F3A0E /* CoreDataTutorial.xcdatamodeld in Sources */,
 				AE36DED22B13938D0054C0DD /* User+CoreDataProperties.swift in Sources */,
 				AE20F6DB2B0A6799007A7239 /* AddPhoneNumber.swift in Sources */,
+				AE36DED62B1395F70054C0DD /* AddExperienceView.swift in Sources */,
 				AE20F6D92B0A6464007A7239 /* InfoView.swift in Sources */,
+				AE36DED42B1395D70054C0DD /* ExperiencesView.swift in Sources */,
 				AE36DED02B13938D0054C0DD /* Phone+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
