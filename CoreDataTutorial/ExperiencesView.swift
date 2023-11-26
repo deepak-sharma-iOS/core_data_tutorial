@@ -12,7 +12,7 @@ struct ExperiencesView: View {
     
     var body: some View {
         VStack {
-           
+            Text(user.expes?.first?.name ?? "")
         }
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
@@ -20,6 +20,8 @@ struct ExperiencesView: View {
                     Image(systemName: "plus")
                 }
             }
+        }.onAppear {
+            print(user.expes)
         }
     }
 }

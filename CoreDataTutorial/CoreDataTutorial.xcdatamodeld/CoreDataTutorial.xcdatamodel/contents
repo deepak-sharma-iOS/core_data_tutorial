@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22225" systemVersion="22G90" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Exp" representedClassName="Exp" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="years" optional="YES" attributeType="String"/>
+        <relationship name="users" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="expes" inverseEntity="User"/>
+    </entity>
     <entity name="Phone" representedClassName="Phone" syncable="YES">
         <attribute name="phone" optional="YES" attributeType="String"/>
         <attribute name="provider" optional="YES" attributeType="String"/>
@@ -11,6 +16,7 @@
         <attribute name="id" optional="YES" attributeType="String"/>
         <attribute name="name" optional="YES" attributeType="String"/>
         <attribute name="phone" optional="YES" attributeType="String"/>
+        <relationship name="expes" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Exp" inverseName="users" inverseEntity="Exp"/>
         <relationship name="phones" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="Phone" inverseName="users" inverseEntity="Phone"/>
     </entity>
 </model>

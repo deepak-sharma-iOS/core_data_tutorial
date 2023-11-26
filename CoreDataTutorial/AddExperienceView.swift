@@ -35,6 +35,18 @@ struct AddExperienceView: View {
             debugPrint("Details can't be empty")
             return
         }
+        
+        let exp = Exp(context: context)
+        exp.name = name
+        exp.years = years
+        
+        user.addToExpes(exp)
+        
+        do {
+            try context.save()
+        } catch {
+            print(error.localizedDescription)
+        }
        
     }
 }

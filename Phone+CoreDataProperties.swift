@@ -16,8 +16,8 @@ extension Phone {
         return NSFetchRequest<Phone>(entityName: "Phone")
     }
 
-    @NSManaged public var provider: String?
     @NSManaged public var phone: String?
+    @NSManaged public var provider: String?
     @NSManaged public var users: User?
 
 }
