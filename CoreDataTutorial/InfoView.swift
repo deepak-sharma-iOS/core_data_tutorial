@@ -9,14 +9,13 @@ import SwiftUI
 
 struct InfoView: View {
     let user: User
-    
     var body: some View {
         VStack {
            
         }
         .toolbar {
             ToolbarItem(placement: .navigationBarTrailing) {
-                NavigationLink(destination: AddBookView(user: user)) {
+                NavigationLink(destination: AddPhoneNumber(user: user)) {
                     Image(systemName: "plus")
                 }
             }

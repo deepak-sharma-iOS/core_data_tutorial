@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AE20F6D42B0A621E007A7239 /* Books+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE20F6D02B0A621E007A7239 /* Books+CoreDataClass.swift */; };
-		AE20F6D52B0A621E007A7239 /* Books+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE20F6D12B0A621E007A7239 /* Books+CoreDataProperties.swift */; };
-		AE20F6D62B0A621E007A7239 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE20F6D22B0A621E007A7239 /* User+CoreDataClass.swift */; };
-		AE20F6D72B0A621E007A7239 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE20F6D32B0A621E007A7239 /* User+CoreDataProperties.swift */; };
 		AE20F6D92B0A6464007A7239 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE20F6D82B0A6464007A7239 /* InfoView.swift */; };
 		AE20F6DB2B0A6799007A7239 /* AddPhoneNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE20F6DA2B0A6799007A7239 /* AddPhoneNumber.swift */; };
+		AE20F6E02B0A7C88007A7239 /* Phone+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE20F6DC2B0A7C88007A7239 /* Phone+CoreDataClass.swift */; };
+		AE20F6E12B0A7C88007A7239 /* Phone+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE20F6DD2B0A7C88007A7239 /* Phone+CoreDataProperties.swift */; };
+		AE20F6E22B0A7C88007A7239 /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE20F6DE2B0A7C88007A7239 /* User+CoreDataClass.swift */; };
+		AE20F6E32B0A7C88007A7239 /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE20F6DF2B0A7C88007A7239 /* User+CoreDataProperties.swift */; };
 		AE74B2FB2AB60DD1005C11B8 /* AddDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE74B2FA2AB60DD1005C11B8 /* AddDetailsView.swift */; };
 		AE9D2F672AADDAA0002F3A0E /* CoreDataTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9D2F662AADDAA0002F3A0E /* CoreDataTutorialApp.swift */; };
 		AE9D2F692AADDAA0002F3A0E /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE9D2F682AADDAA0002F3A0E /* Persistence.swift */; };
@@ -43,12 +43,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		AE20F6D02B0A621E007A7239 /* Books+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Books+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		AE20F6D12B0A621E007A7239 /* Books+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Books+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
-		AE20F6D22B0A621E007A7239 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
-		AE20F6D32B0A621E007A7239 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		AE20F6D82B0A6464007A7239 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		AE20F6DA2B0A6799007A7239 /* AddPhoneNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhoneNumber.swift; sourceTree = "<group>"; };
+		AE20F6DC2B0A7C88007A7239 /* Phone+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Phone+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		AE20F6DD2B0A7C88007A7239 /* Phone+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Phone+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		AE20F6DE2B0A7C88007A7239 /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
+		AE20F6DF2B0A7C88007A7239 /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		AE74B2FA2AB60DD1005C11B8 /* AddDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDetailsView.swift; sourceTree = "<group>"; };
 		AE9D2F632AADDAA0002F3A0E /* CoreDataTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE9D2F662AADDAA0002F3A0E /* CoreDataTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTutorialApp.swift; sourceTree = "<group>"; };
@@ -113,10 +113,10 @@
 		AE9D2F652AADDAA0002F3A0E /* CoreDataTutorial */ = {
 			isa = PBXGroup;
 			children = (
-				AE20F6D02B0A621E007A7239 /* Books+CoreDataClass.swift */,
-				AE20F6D12B0A621E007A7239 /* Books+CoreDataProperties.swift */,
-				AE20F6D22B0A621E007A7239 /* User+CoreDataClass.swift */,
-				AE20F6D32B0A621E007A7239 /* User+CoreDataProperties.swift */,
+				AE20F6DC2B0A7C88007A7239 /* Phone+CoreDataClass.swift */,
+				AE20F6DD2B0A7C88007A7239 /* Phone+CoreDataProperties.swift */,
+				AE20F6DE2B0A7C88007A7239 /* User+CoreDataClass.swift */,
+				AE20F6DF2B0A7C88007A7239 /* User+CoreDataProperties.swift */,
 				AE9D2F712AADDAA1002F3A0E /* CoreDataTutorial.entitlements */,
 				AE74B2FA2AB60DD1005C11B8 /* AddDetailsView.swift */,
 				AE9D2F6D2AADDAA0002F3A0E /* ContentView.swift */,
@@ -288,15 +288,15 @@
 			files = (
 				AE74B2FB2AB60DD1005C11B8 /* AddDetailsView.swift in Sources */,
 				AE9D2F672AADDAA0002F3A0E /* CoreDataTutorialApp.swift in Sources */,
+				AE20F6E02B0A7C88007A7239 /* Phone+CoreDataClass.swift in Sources */,
 				AE9D2F692AADDAA0002F3A0E /* Persistence.swift in Sources */,
+				AE20F6E22B0A7C88007A7239 /* User+CoreDataClass.swift in Sources */,
 				AE9D2F6E2AADDAA0002F3A0E /* ContentView.swift in Sources */,
-				AE20F6D42B0A621E007A7239 /* Books+CoreDataClass.swift in Sources */,
 				AE9D2F6C2AADDAA0002F3A0E /* CoreDataTutorial.xcdatamodeld in Sources */,
-				AE20F6D62B0A621E007A7239 /* User+CoreDataClass.swift in Sources */,
+				AE20F6E32B0A7C88007A7239 /* User+CoreDataProperties.swift in Sources */,
 				AE20F6DB2B0A6799007A7239 /* AddPhoneNumber.swift in Sources */,
-				AE20F6D52B0A621E007A7239 /* Books+CoreDataProperties.swift in Sources */,
 				AE20F6D92B0A6464007A7239 /* InfoView.swift in Sources */,
-				AE20F6D72B0A621E007A7239 /* User+CoreDataProperties.swift in Sources */,
+				AE20F6E12B0A7C88007A7239 /* Phone+CoreDataProperties.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
