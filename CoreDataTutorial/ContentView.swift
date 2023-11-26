@@ -16,21 +16,27 @@ struct ContentView: View {
     private var users: FetchedResults<User>
     @Environment(\.managedObjectContext) private var context
     @Environment(\.undoManager) private var undoManager
+    @State private var infoPresented = false
     
     var body: some View {
-        NavigationView {
-            List(users) { user in
-                HStack {
-                    Text((user.name ?? "") + ", " + (user.id ?? ""))
-                    Spacer()
-                    Button("Delete") {
-                        delete(user: user)
-                    }
-                
-                }
-                
-                
-            }
+        NavigationStack {
+            LazyVStack(spacing: 10) {
+                       ForEach(users, id: \.self) { user in
+                           HStack {
+                               Text((user.name ?? "") + ", " + (user.id ?? ""))
+                               Button("Delete") {
+                                   delete(user: user)
+                               }
+                               Button("Details") {
+                                   infoPresented = true
+                               }
+                               .navigationDestination(isPresented: $infoPresented) {
+                                   InfoView(user: user)
+                               }
+                               
+                           }
+                       }
+                   }
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     NavigationLink(destination: AddDetailsView()) {
