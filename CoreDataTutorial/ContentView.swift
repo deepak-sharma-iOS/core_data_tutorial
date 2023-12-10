@@ -24,7 +24,7 @@ struct ContentView: View {
             LazyVStack(spacing: 10) {
                        ForEach(users, id: \.self) { user in
                            HStack {
-                               Text((user.name ?? "") + ", " + (user.id ?? ""))
+                               Text((user.fullname ?? "") + ", " + (user.id ?? ""))
                                Button("Delete") {
                                    delete(user: user)
                                }

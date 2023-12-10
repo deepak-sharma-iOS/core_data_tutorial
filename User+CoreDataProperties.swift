@@ -2,7 +2,7 @@
 //  User+CoreDataProperties.swift
 //  CoreDataTutorial
 //
-//  Created by Deepak Sharma on 26/11/23.
+//  Created by Deepak Sharma on 10/12/23.
 //
 //
 
@@ -19,10 +19,10 @@ extension User {
     @NSManaged public var address: String?
     @NSManaged public var age: String?
     @NSManaged public var id: String?
-    @NSManaged public var name: String?
+    @NSManaged public var fullname: String?
     @NSManaged public var phone: String?
-    @NSManaged public var phones: Phone?
     @NSManaged public var expes: Set<Exp>?
+    @NSManaged public var phones: Phone?
 
 }
 
@@ -36,10 +36,10 @@ extension User {
     @NSManaged public func removeFromExpes(_ value: Exp)
 
     @objc(addExpes:)
-    @NSManaged public func addToExpes(_ values: Set<Exp>)
+    @NSManaged public func addToExpes(_ values: NSSet)
 
     @objc(removeExpes:)
-    @NSManaged public func removeFromExpes(_ values: Set<Exp>)
+    @NSManaged public func removeFromExpes(_ values: NSSet)
 
 }
 

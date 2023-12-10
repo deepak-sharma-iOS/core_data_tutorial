@@ -57,6 +57,7 @@
 		AE36DF182B13B01D0054C0DD /* Phone+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Phone+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
 		AE36DF1F2B13BBF90054C0DD /* Exp+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exp+CoreDataClass.swift"; sourceTree = SOURCE_ROOT; };
 		AE36DF202B13BBF90054C0DD /* Exp+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Exp+CoreDataProperties.swift"; sourceTree = SOURCE_ROOT; };
+		AE6762882B260A8F00A5B5E0 /* CoreDataTutorial-v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "CoreDataTutorial-v2.xcdatamodel"; sourceTree = "<group>"; };
 		AE74B2FA2AB60DD1005C11B8 /* AddDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDetailsView.swift; sourceTree = "<group>"; };
 		AE9D2F632AADDAA0002F3A0E /* CoreDataTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreDataTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE9D2F662AADDAA0002F3A0E /* CoreDataTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataTutorialApp.swift; sourceTree = "<group>"; };
@@ -467,6 +468,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CoreDataTutorial/Preview Content\"";
+				DEVELOPMENT_TEAM = 23GRC875TS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -503,6 +505,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CoreDataTutorial/Preview Content\"";
+				DEVELOPMENT_TEAM = 23GRC875TS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -661,9 +664,10 @@
 		AE9D2F6A2AADDAA0002F3A0E /* CoreDataTutorial.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				AE6762882B260A8F00A5B5E0 /* CoreDataTutorial-v2.xcdatamodel */,
 				AE9D2F6B2AADDAA0002F3A0E /* CoreDataTutorial.xcdatamodel */,
 			);
-			currentVersion = AE9D2F6B2AADDAA0002F3A0E /* CoreDataTutorial.xcdatamodel */;
+			currentVersion = AE6762882B260A8F00A5B5E0 /* CoreDataTutorial-v2.xcdatamodel */;
 			path = CoreDataTutorial.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

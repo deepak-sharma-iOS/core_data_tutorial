@@ -40,7 +40,7 @@ struct AddDetailsView: View {
             
             if result.isEmpty {
                 let user = User(context: context)
-                user.name = name
+                user.fullname = name
                 user.age = age
                 user.phone = phone
                 user.address = address
@@ -54,7 +54,7 @@ struct AddDetailsView: View {
                 }
             } else {
                 guard let firstUser = result.first else { return }
-                firstUser.name = name
+                firstUser.fullname = name
                 firstUser.age = age
                 firstUser.phone = phone
                 firstUser.address = address

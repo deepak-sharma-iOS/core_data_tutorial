@@ -2,7 +2,7 @@
 //  Exp+CoreDataProperties.swift
 //  CoreDataTutorial
 //
-//  Created by Deepak Sharma on 26/11/23.
+//  Created by Deepak Sharma on 10/12/23.
 //
 //
 
